@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #ffffff;}
+
+#customers tr:hover {background-color: #ffffff;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #bfbfbf;
+  color: black;
+}
+</style>
+</head>
+<body>
+  <h2>informacao do Pedido</h2>
+  <h2>id_pedido</h2>
+<table id="customers">
+  <tr>
+      <th>Dados do cliente</th>
+
+  </tr>
+  <tr>
+
+      <td>Nome: nome_cliente</td>
+      <td>CPF: cpf_cliente</td>
+      <td>Data:data_pedido</td>
+      <td>Email: email_cliente</td>
+  </tr>
+
+</table>
+<h3>Itens do pedido</h3>
+
+<table id="customers">
+  <tr>
+      <th>Código</th>
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Valor</th>
+  </tr>
+  <tr>
+
+      <td>codigo_produto</td>
+      <td>nome_produto</td>
+      <td>quantidade_itemPedido</td>
+      <td>valor_total_produto</td>
+  </tr>
+
+</table>
+
+<h4>Total:R$ valor_total_pedido</h4>
+</body>
+</html>
